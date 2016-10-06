@@ -1,5 +1,5 @@
 <?php
-    $lang['auth-wrong-user']="Credenziali errate, riprova";
+    $lang['auth-wrong-user']="Wrong, riprova";
 
     $lang['auth-fb-continue-as']='<i class="left fa fa-facebook-official" aria-hidden="true"></i>Continua come <b>{{$1}}</b>';
 
