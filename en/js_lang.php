@@ -1,7 +1,7 @@
 <?php
-    $lang['auth-wrong-user']="Wrong, riprova";
+    $lang['auth-wrong-user']="Wrong credential, try again";
 
-    $lang['auth-fb-continue-as']='<i class="left fa fa-facebook-official" aria-hidden="true"></i>Contifefenua come <b>{{$1}}</b>';
+    $lang['auth-fb-continue-as']='<i class="left fa fa-facebook-official" aria-hidden="true"></i> Continue as <b>{{$1}}</b>';
 
     $lang['advice']="Advice";
     $lang['what_fix']='What fix';
@@ -9,9 +9,9 @@
     $lang['final_score']='SEO Score';
     $lang['version_mobile']='Mobile';
     $lang['version_desktop']='Desktop';
-    $lang['err_title_too_large']="Il titolo sembra troppo lungo deve contenere tra <b>55</b> ed i <b>66</b>  caratteri";
-    $lang['err_title_too_small']="Il titolo sembra troppo corto deve contenere tra <b>55</b> ed i <b>66</b>  caratteri";
-    $lang['err_title_misskeywordsh1']='Nel titolo mancano le keywords <code>[{{$2}}]</code> contenute nel tag <b>&lt;h1&gt;</b> <blockquote><b>&lt;h1&gt;</b>{{$1}}<b>&lt;/h1&gt;</b></blockquote>E\' sempre consigliabile mantenere il tag title ed il tag h1 uguali o molto simili per aumentare il <i>ranking target quality</i> da parte di google.';
+    $lang['err_title_too_large']="The title seems too long, it should be between <b>55</b> and <b>66</b> characters";
+    $lang['err_title_too_small']="The title seems too short, it should be between <b>55</b> and <b>66</b> characters";
+    $lang['err_title_misskeywordsh1']='In the title lacks the keywords <code>[{{$2}}]</code> contained in the tag <b>&lt;h1&gt;</b> <blockquote><b>&lt;h1&gt;</b>{{$1}}<b>&lt;/h1&gt;</b></blockquote>E\' sempre consigliabile mantenere il tag title ed il tag h1 uguali o molto simili per aumentare il <i>ranking target quality</i> da parte di google.';
     $lang['err_title_miss']="Manca il tag title nella tua pagina";
     $lang['err_title_missh1']="Manca il tag <b>&lt;H1&gt;</b> nella tua pagina. <br>Inseriscilo e fai in modo che i due tag abbiano un contenuto testuale molto simile. ";
     $lang['err_description_too_large']="La tua descrizione è troppo lunga deve contenere tra <b>140</b> ed i <b>170</b>  caratteri";
