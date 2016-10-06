@@ -1,7 +1,7 @@
 <?php
     $lang['auth-wrong-user']="Credenziali errate, riprova";
 
-    $lang['auth-fb-continue-as']='<i class="left fa fa-facebook-official" aria-hidden="true"></i>Continua come <b>{{$1}}</b>';
+    $lang['auth-fb-continue-as']='<i class="left fa fa-facebook-official" aria-hidden="true"></i>Contifefenua come <b>{{$1}}</b>';
 
     $lang['advice']="Advice";
     $lang['what_fix']='What fix';
