@@ -270,8 +270,7 @@ Length: 784 pages\"&gt;</pre>
 
     $lang["audit_social_exam_opengraph_descr_miss_url"]='Specifica un Url nell\'attributo content del tag  <b>&lt;meta property="og:url"&gt;</b>';
 
-    $lang["audit_social_exam_fbpopularity_title"]="Popolarità su facebook",
-
+    $lang["audit_social_exam_fbpopularity_title"]="Popolarità su facebook";
 
     $lang["audit_social_exam_fbpopularity_report_title"]='Analisi delle interazioni facebook dell\'url';
 
@@ -305,9 +304,9 @@ Length: 784 pages\"&gt;</pre>
 
     $lang["audit_social_exam_twittercard_miss_tagdescr"]='Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta name="twitter:description"&gt;</b>';
 
-    $lang["audit_social_exam_twittercard_miss_tagtitle"]='Specifica un Titolo nell\'attributo content del tag <b>&lt;meta name="twitter:title"&gt;</b>'
+    $lang["audit_social_exam_twittercard_miss_tagtitle"]='Specifica un Titolo nell\'attributo content del tag <b>&lt;meta name="twitter:title"&gt;</b>';
 
-    $lang["audit_social_exam_twittercard_miss_tagsite"]='Specifica un Url nell\'attributo content del tag  <b>&lt;meta name="twitter:site"&gt;</b>'
+    $lang["audit_social_exam_twittercard_miss_tagsite"]='Specifica un Url nell\'attributo content del tag  <b>&lt;meta name="twitter:site"&gt;</b>';
 
 
     $lang["google_terms_of_use"]='Portions of this page are reproduced from work created and <a href="/readme/policies/">shared by Google</a> and used according to terms described in the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution License</a>.';
