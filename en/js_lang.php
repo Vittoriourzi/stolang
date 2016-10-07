@@ -109,4 +109,56 @@ Length: 784 pages\"&gt;</pre>
     $lang['sugg_images']="";
     $lang['sugg_url_seo_friendly']='In the SEO environment it is recommended to always use the hyphen "-" and not the underscore "_" to separate the different keywords in the URL. In addition it is advisable to have a structure that contains all the letters from A to Z, all of the digits 0 to 9 and only and exclusively the following symbols: .(points) -(hyphen) and /(slash).';
 
+/* SEO AUDIT - GENERALS */
+    $lang['audit_analysis_title']="Analisi";
+    $lang['audit_try_again']="Sei pronto? Riprova questo test";
+    $lang['audit_final_valutation']="Valutazione Finale";
+    $lang['audit_social_og']="Open Graph";
+    $lang['audit_social_twittercard']="Twitter Card";
+    $lang["audit_social_socialplugin"]="Social Plugin";
+    $lang['audit_social_fbrank']='Popolarità su facebook';
+
+/* SEO AUDIT - SPEED ZONE */
+    $lang['audit_speed_alertcache']='*I risultati vengono memorizzati nella cache di google per 30 s. Se hai apportato modifiche alla tua pagina, aspetta 30 s prima di eseguire di nuovo il test.';
+
+/* SEO AUDIT - BASE ZONE */
+    $lang['audit_structure_menu_serp_preview']="Anteprima ricerca";
+    $lang['audit_structure_menu_description']="Descrizione";
+    $lang["audit_structure_menu_title"]="Titolo";
+    $lang["audit_structure_menu_h1"]="H1";
+    $lang["audit_structure_menu_h2"]="H2";
+    $lang["audit_structure_menu_Keywords_url"]="Keywords url";
+    $lang["audit_structure_menu_url_seo_frly"]="Url seo friendly";
+    $lang["audit_structure_menu_meta_robots"]="Meta Robots";
+    $lang["audit_structure_menu_robots"]="Robots.txt";
+    $lang["audit_structure_menu_sitemap"]="Sitemap";
+
+/* SEO AUDIT - CONTENTS*/
+
+/* SEO AUDIT - CONTENTS -MENU */
+    $lang["audit_base_menu_keywords"]="Keywords";
+    $lang["audit_base_menu_keyword_density"]="Keywords Density";
+    $lang["audit_base_menu_microdata"]="Microdata";
+    $lang["audit_base_menu_title_coherence"]="Title Coherence";
+    $lang["audit_base_menu_h1_coherence"]="H1 Coherence";
+    $lang["audit_base_menu_txtcoderatio"]="Text/Code Ratio";
+    $lang["audit_base_menu_page_size"]="Dimensioni pagina";
+    $lang["audit_base_menu_img_alt"]="Alt sulle immagini";
+    $lang["audit_base_menu_title_on_a"]="Title sul tag a";
+
+
+    $lang["audit_base_exam_txtcoderatio"]='Il <b>text/code</b> ratio della pagina analizzata è di <b>{{$1}}%</b>';
+    $lang["audit_base_page_size_score_low"]='La pagina analizzata risulta troppo pesante';
+
+    $lang["audit_base_exam_txt_size"]='Dimensione testo';
+
+    $lang["audit_base_exam_code_score_low"]='C\'è poco testo nella tua pagina! Lavora di più sul contentuto';
+    $lang["audit_base_exam_code_score_med"]='Il rapporto tra testo e codice html della tua pagina sembra buono';
+    $lang["audit_base_exam_code_score_high"]="Il rapporto tra testo e codice html della pagina sembra ottimo";
+
+    $lang["audit_base_exam_code_size"]='Dimensione codice';
+    $lang["audit_base_exam_page_size"]='Le dimensioni della pagina analizzata sono di <b>{{$1}} KB</b>';
+    $lang["audit_base_page_size_score_high"]='Le dimensioni della pagina sono ottime';
+    $lang["audit_base_page_size_score_med"]='Le dimensioni della pagina sembrano buone';
+
 ?>
