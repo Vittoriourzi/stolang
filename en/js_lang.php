@@ -11,34 +11,38 @@
     $lang['version_desktop']='Desktop';
     $lang['err_title_too_large']="The title seems too long, it should be between <b>55</b> and <b>66</b> characters";
     $lang['err_title_too_small']="The title seems too short, it should be between <b>55</b> and <b>66</b> characters";
-    $lang['err_title_misskeywordsh1']='In the title lacks the keywords <code>[{{$2}}]</code> contained in the tag <b>&lt;h1&gt;</b> <blockquote><b>&lt;h1&gt;</b>{{$1}}<b>&lt;/h1&gt;</b></blockquote>E\' sempre consigliabile mantenere il tag title ed il tag h1 uguali o molto simili per aumentare il <i>ranking target quality</i> da parte di google.';
-    $lang['err_title_miss']="Manca il tag title nella tua pagina";
-    $lang['err_title_missh1']="Manca il tag <b>&lt;H1&gt;</b> nella tua pagina. <br>Inseriscilo e fai in modo che i due tag abbiano un contenuto testuale molto simile. ";
-    $lang['err_description_too_large']="La tua descrizione è troppo lunga deve contenere tra <b>140</b> ed i <b>170</b>  caratteri";
-    $lang['err_description_too_small']="La tua descrizione è troppo corta  deve contenere tra <b>140</b> ed i <b>170</b> caratteri";
-    $lang['err_description_miss']="Manca il tag meta con l'attributo description nella tua pagina";
-    $lang['err_h1_duplicate']='Sono presenti <b>&lt;H1&gt;</b> duplicati all\'interno della tua pagina. Questo potrebbe influire negativamente sulla tua indicizzazione: <blockquote>{{for}}<li><b>&lt;H1&gt;</b>{{$n}}<b>&lt;/H1&gt;</b></li>{{endfor}}</blockquote>';
+    $lang['err_title_misskeywordsh1']='The title lacks the keywords <code>[{{$2}}]</code> contained in the tag <b>&lt;h1&gt;</b> <blockquote><b>&lt;h1&gt;</b>{{$1}}<b>&lt;/h1&gt;</b></blockquote> Is always advisable mantain the tag title equal or similar to the tag h1 in order to increase the <i>ranking target quality</i> by Google.';
+    $lang['err_title_miss']="Missing tag title in your page";
+    $lang['err_title_missh1']="Missing tag <b>&lt;H1&gt;</b> in your page. <br>Enter it and make sure that the two tags have a very similar textual content. ";
+    $lang['err_description_too_large']="Your description is too long and should contain between <b>140</b> and <b>170</b>  characters";
+    $lang['err_description_too_small']="Your description is too short and should contain between <b>140</b> and <b>170</b> characters";
+    $lang['err_description_miss']="Missing meta tags with the description attribute in your page.";
+    $lang['err_h1_duplicate']='Are present <b>&lt;H1&gt;</b> doubled within your page. This could adversely affect your indexing: <blockquote>{{for}}<li><b>&lt;H1&gt;</b>{{$n}}<b>&lt;/H1&gt;</b></li>{{endfor}}</blockquote>';
 
-    $lang['err_h1_misskeywordstitle']='Nel tag <b>&lt;H1&gt;</b> mancano le keywords <code>[{{$2}}]</code> contenute nel tag <b>&lt;title&gt;</b> <blockquote><b>&lt;title&gt;</b>{{$1}}<b>&lt;/title&gt;</b></blockquote>E\' sempre consigliabile mantenere il tag title ed il tag h1 uguali o molto simili per aumentare il <i>ranking target quality</i> da parte di google.';
+    $lang['err_h1_misskeywordstitle']='In the tag <b>&lt;H1&gt;</b> missing the keywords <code>[{{$2}}]</code> conteined in the tag <b>&lt;title&gt;</b> <blockquote><b>&lt;title&gt;</b>{{$1}}<b>&lt;/title&gt;</b></blockquote>It is always advisavle to keep the tag title and the h1 tag the same or very similar to increase the <i>ranking target quality</i> by Google.';
 
-    $lang['err_h1_miss']="Manca il tag <b>&lt;H1&gt;</b> nella tua pagina. ";
-    $lang['err_h2_toomuch']="Ci sono troppi tag <b>&lt;H2&gt;</b> nella tua pagina. E' consigliato non superare oltre i 2-3 sottotitoli h2 per ogni pagina per evitare una disambiguazione del contenuto.";
-    $lang['err_h2_miss']="Mancano i tag <b>&lt;H2&gt;</b> all'interno della tua pagina";
-    $lang['err_images_miss_alt']="Nelle immagini non è stato curato l'attributo alt per migliorarne l'individuazione dai motori di ricerca";
-    $lang['err_a_miss_title']="In alcuni dei dei tuoi links (tag &lt;A&gt;) non è stato curato l'attributo title che permette di migliorare l'usabilità.";
-    $lang['err_urlaction_not_friendly']='Alcune parti del tuo url non sono SEO FRIENDLY per i motori di ricerca. Nell\'ambiente SEO si consiglia di utilizzare sempre il trattino "-" e non l\'underscore "_" per separare le diverse keyword all\'interno della URL. In oltre è consigliabile avere una struttura che contenga tutte le lettere dalla A alla Z, tutti le cifre da 0 a 9 e solo ed esclusivamente i seguenti simboli: .(punti) -(trattini) e /(slash).';
+    $lang['err_h1_miss']="Missing the tag <b>&lt;H1&gt;</b> on your page. ";
+    $lang['err_h2_toomuch']="There are too much tag <b>&lt;H2&gt;</b> on your page. it is recommended not to exceed more than 2-3 h2 caption for each page to avoid a disambiguation of the content. ";
+    $lang['err_h2_miss']="Missing tags <b>&lt;H2&gt;</b> within your page";
+    $lang['err_images_miss_alt']="In the images it was not taken care of the alt attribute to increase the detection rate by search engines";
+    $lang['err_a_miss_title']="In some of your links (tag &lt;A&gt;) it was not cured the title attribute that improves usabiliy.";
+    $lang['err_urlaction_not_friendly']='
+Some parts of your url are not SEO FRIENDLY for search engines. In the SEO environment it is recommended to always use the hyphen "-" and not the underscore "_" to separate the different keywords in the URL. In addition it is advisable to have a structure that contains all the letters from A to Z, all of the digits 0 to 9 and only and exclusively the following symbols: .(points) -(hyphen) and /(slash).';
 
 
-    $lang['err_url_misskeywordstitle']='Nella tua <b>URL</b> mancano alcune keywords <code>[{{$2}}]</code> contenute nel tag <b>&lt;title&gt;</b> <blockquote><b>&lt;title&gt;</b>{{$1}}<b>&lt;/title&gt;</b></blockquote>E\' sempre consigliabile inserire le keywords per che aumentano l\'indicizzazione rispetto un determinato argomento presente nel sito. Nel caso si tratti di una index page allora questo aspetto risulterà meno pesato. In caso contrario è sempre consigliabile riscrivere l\'url in modo tale che contenga parti del titolo <pre><br> Esempio di struttura ottimale: <br> {{$3}} ';
+    $lang['err_url_misskeywordstitle']='In your <b>URL</b> missing some keywords <code>[{{$2}}]</code> contained in the tag <b>&lt;title&gt;</b> <blockquote><b>&lt;title&gt;</b>{{$1}}<b>&lt;/title&gt;</b></blockquote>It is always advisable to insert the keywords that increase the the indexing than a certain topic in the site. In the case of an index page then this aspect will be less weighed. Otherwise it is always advisable to rewrite the URL so that it contains parts of the title <pre> <br> Example of optimal structure: <br> {{$3}} ';
 
-    $lang['err_url_misskeywordstitle_index']='Nella tua <b>URL</b> mancano alcune keywords <code>[{{$2}}]</code> contenute nel tag <b>&lt;title&gt;</b> <blockquote><b>&lt;title&gt;</b>{{$1}}<b>&lt;/title&gt;</b></blockquote>E\' sempre consigliabile inserire le keywords per che aumentano l\'indicizzazione rispetto un determinato argomento presente nel sito. Nel caso si tratti di una index page allora questo aspetto risulterà meno pesato. In caso contrario è sempre consigliabile riscrivere l\'url in modo tale che contenga parti del titolo';
+    $lang['err_url_misskeywordstitle_index']='In your <b>URL</b> missing some keywords <code>[{{$2}}]</code> contained in the tag <b>&lt;title&gt;</b> <blockquote><b>&lt;title&gt;</b>{{$1}}<b>&lt;/title&gt;</b></blockquote>It is always advisable to insert the keywords that increase the the indexing than a certain topic in the site. In the case of an index page then this aspect will be less weighed. Otherwise it is always advisable to rewrite the URL so that it contains parts of the title';
 
-    $lang['err_serp_fixother']="Per migliorare la tua anteprima di ricerca devi lavorare per aumentare il punteggi ottenuti con: <ul>tag &lt;title&gt;, il tag  &lt;meta description&gt; e la tua <b>URL</b></ul>";
+    $lang['err_serp_fixother']="
+To improve your search preview you have to work to increase the scores obtained with: <ul>tag &lt;title&gt;, the tag &alt;meta description&gt; and your <b>URL</b></ul>";
 
-    $lang['err_microdata_missingall']="In questa pagina mancano i tag microdata offerti da <a href=\"http://schema.org\">http://schema.org</a> inseriscili nella tua pagina per aumentare il tuo impatto visivo sui motori di ricerca.";
+    $lang['err_microdata_missingall']="This page missing tags offered by microdata <a href=\"http://schema.org\">http://schema.org</a>
+enter them on your page to increase your visual impact on the search engines.";
 
     /*<!---suggerimenti--->*/
-    $lang['sugg_microdata']='<h4><img class="text-img img-xs img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1000px-Google_2015_logo.svg.png"> spiega cosa sono i microdata</h4><ul>
+    $lang['sugg_microdata']='<h4><img class="text-img img-xs img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1000px-Google_2015_logo.svg.png">
+It explains what are the microdata.</h4><ul>
     <li>
     <p><a href="http://schema.org/docs/gs.html#microdata_how">Microdata</a> and
     <a href="http://www.w3.org/TR/rdfa-lite/">RDFa</a> define new HTML attributes that let you indicate what
@@ -84,6 +88,6 @@ Length: 784 pages\"&gt;</pre>
     $lang['sugg_h1']="";
     $lang['sugg_h2']="";
     $lang['sugg_images']="";
-    $lang['sugg_url_seo_friendly']='Nell\'ambiente SEO si consiglia di utilizzare sempre il trattino "-" e non l\'underscore "_" per separare le diverse keyword all\'interno della URL. In oltre è consigliabile avere una struttura che contenga tutte le lettere dalla A alla Z, tutti le cifre da 0 a 9 e solo ed esclusivamente i seguenti simboli: .(punti) -(trattini) e /(slash).';
+    $lang['sugg_url_seo_friendly']='In the SEO environment it is recommended to always use the hyphen "-" and not the underscore "_" to separate the different keywords in the URL. In addition it is advisable to have a structure that contains all the letters from A to Z, all of the digits 0 to 9 and only and exclusively the following symbols: .(points) -(hyphen) and /(slash).';
 
 ?>
