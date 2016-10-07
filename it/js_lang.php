@@ -18,8 +18,8 @@
     $lang['err_description_too_small']="La tua descrizione è troppo corta  deve contenere tra <b>140</b> ed i <b>170</b> caratteri";
     $lang['err_description_miss']="Manca il tag meta con l'attributo description nella tua pagina";
     $lang['err_h1_multiple']='Sono presenti <b>&lt;h1&gt;</b> multipli all\'interno della tua pagina. Questo potrebbe influire negativamente sulla tua indicizzazione: <blockquote>{{for}}<li><b>&lt;h1&gt;</b>{{$n}}<b>&lt;/h1&gt;</b></li>{{endfor}}</blockquote>';
+    $lang['err_h1_duplicate']='Sono presenti <b>&lt;H1&gt;</b> duplicati all\'interno della tua pagina. Questo potrebbe influire negativamente sulla tua indicizzazione: <blockquote>{{for}}<li><b>&lt;H1&gt;</b>{{$n}}<b>&lt;/H1&gt;</b></li>{{endfor}}</blockquote>';
     $lang['err_h2_duplicate']='Sono presenti <b>&lt;h2&gt;</b> duplicati all\'interno della tua pagina. Questo potrebbe influire negativamente sulla tua indicizzazione: <blockquote>{{for}}<li><b>&lt;h2&gt;</b>{{$n}}<b>&lt;/h2&gt;</b></li>{{endfor}}</blockquote>';
-
 
     $lang['err_h1_misskeywordstitle']='Nel tag <b>&lt;h1&gt;</b> mancano alcune keywords <code>[{{$2}}]</code> contenute nel tag <b>&lt;title&gt;</b> <blockquote><b>&lt;title&gt;</b>{{$1}}<b>&lt;/title&gt;</b></blockquote>E\' sempre consigliabile mantenere il tag title ed il tag h1 uguali o molto simili per aumentare il <i>ranking target quality</i> da parte di google.';
 
@@ -51,8 +51,6 @@
     $lang['err_wordsLevel_lowleveltxt']="Aumenta il contenuto testuale della tua pagina";
 
     /*<!---suggerimenti--->*/
-    $lang['sugg_images_attr_title']="The title attribute can be used to describe almost any HTML element. A beneficial way to use the title attribute for SEO purposes would be to use it in the link element to provide descriptive text within an anchor tag (which gives you more real estate for your targeted keyword phrases). I would suggest not to duplicate your anchor text (for usability purposes). It's supposed to provide supplementary information and let the users know where the link will direct them to if they click on it. When creating your link titles, optimize for keyword phrases you’re targeting on the linked to page (just as you would with anchor text). Search engines only use them in consideration to the page being linked to, not the page the link is on";
-
     $lang['sugg_microdata']='<h4><img class="text-img img-xs img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1000px-Google_2015_logo.svg.png"> spiega cosa sono i microdata</h4><ul>
     <li>
     <p><a href="http://schema.org/docs/gs.html#microdata_how">Microdata</a> and
@@ -110,6 +108,7 @@ Lunghezza: 784 pagine\"&gt;</pre>
   <br>
   <li><strong>Utilizza descrizioni di qualità.</strong> Infine, assicurati che le descrizioni siano veramente espositive. Poiché le meta descrizioni non vengono inserite nelle pagine visualizzate dall'utente, è facile che questi contenuti vengano trascurati. Le descrizioni di alta qualità, tuttavia, possono essere visualizzate nei risultati di ricerca di Google e possono essere molto utili per migliorare la qualità e la quantità del traffico di ricerca.</li>
 </ul>";
+    $lang['sugg_images_attr_title']="The title attribute can be used to describe almost any HTML element. A beneficial way to use the title attribute for SEO purposes would be to use it in the link element to provide descriptive text within an anchor tag (which gives you more real estate for your targeted keyword phrases). I would suggest not to duplicate your anchor text (for usability purposes). It's supposed to provide supplementary information and let the users know where the link will direct them to if they click on it. When creating your link titles, optimize for keyword phrases you’re targeting on the linked to page (just as you would with anchor text). Search engines only use them in consideration to the page being linked to, not the page the link is on";
     $lang['sugg_h1']="";
     $lang['sugg_h2']="";
     $lang['sugg_images']="";
