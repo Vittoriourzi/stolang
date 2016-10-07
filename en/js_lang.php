@@ -17,7 +17,9 @@
     $lang['err_description_too_large']="Your description is too long and should contain between <b>140</b> and <b>170</b>  characters";
     $lang['err_description_too_small']="Your description is too short and should contain between <b>140</b> and <b>170</b> characters";
     $lang['err_description_miss']="Missing meta tags with the description attribute in your page.";
+    $lang['err_h1_multiple']='Are present <b>&lt;h1&gt;</b> multiple inside of your page. This could adversely affect on your indexing: <blockquote>{{for}}<li><b>&lt;h1&gt;</b>{{$n}}<b>&lt;/h1&gt;</b></li>{{endfor}}</blockquote>';
     $lang['err_h1_duplicate']='Are present <b>&lt;H1&gt;</b> doubled within your page. This could adversely affect your indexing: <blockquote>{{for}}<li><b>&lt;H1&gt;</b>{{$n}}<b>&lt;/H1&gt;</b></li>{{endfor}}</blockquote>';
+    $lang['err_h2_duplicate']='Are present <b>&lt;h2&gt;</b> doubled within your page. This could adversely affect your indexing: <blockquote>{{for}}<li><b>&lt;h2&gt;</b>{{$n}}<b>&lt;/h2&gt;</b></li>{{endfor}}</blockquote>';
 
     $lang['err_h1_misskeywordstitle']='In the tag <b>&lt;H1&gt;</b> missing the keywords <code>[{{$2}}]</code> conteined in the tag <b>&lt;title&gt;</b> <blockquote><b>&lt;title&gt;</b>{{$1}}<b>&lt;/title&gt;</b></blockquote>It is always advisavle to keep the tag title and the h1 tag the same or very similar to increase the <i>ranking target quality</i> by Google.';
 
@@ -34,13 +36,30 @@ Some parts of your url are not SEO FRIENDLY for search engines. In the SEO envir
 
     $lang['err_url_misskeywordstitle_index']='In your <b>URL</b> missing some keywords <code>[{{$2}}]</code> contained in the tag <b>&lt;title&gt;</b> <blockquote><b>&lt;title&gt;</b>{{$1}}<b>&lt;/title&gt;</b></blockquote>It is always advisable to insert the keywords that increase the the indexing than a certain topic in the site. In the case of an index page then this aspect will be less weighed. Otherwise it is always advisable to rewrite the URL so that it contains parts of the title';
 
-    $lang['err_serp_fixother']="
-To improve your search preview you have to work to increase the scores obtained with: <ul>tag &lt;title&gt;, the tag &alt;meta description&gt; and your <b>URL</b></ul>";
+    $lang['err_serp_fixother']="To improve your search preview you have to work to increase the scores obtained with: <ul>tag &lt;title&gt;, the tag &alt;meta description&gt; and your <b>URL</b></ul>";
 
     $lang['err_microdata_missingall']="This page missing tags offered by microdata <a href=\"http://schema.org\">http://schema.org</a>
-enter them on your page to increase your visual impact on the search engines.";
+    enter them on your page to increase your visual impact on the search engines.";
+
+    $lang['err_metarobots_noindex']="The meta name[Robots]
+    is set to NOINDEX value, this will prevent the indexing on search engines";
+    $lang['err_sitemap_notfounded']="No sitemap of this site was found";
+    $lang['err_robots_novalid']="The Robots.txt file is invalid.";
+    $lang['err_robots_notfounded']="It was not found any Robots.txt file on this site";
+    /*contents*/
+    $lang['err_RatioTextCode_lowleveltext']="
+    This page presents a low textual content. The search engines could not index properly this page because without any meaningful content.";
+    $lang['err_h1Coherence_missh1']="
+    Before working on these keywords you need to enter the h1 tag <small>(See card <i class=\"tiny material-icons\">&#xE86F;</i> base)</small>";
+    $lang['err_h1Coherence_misskey']='The keyword <b>{{$1}}</b>
+    is not present in sufficient manner in the page';
+    $lang['err_titleCoherence_misskey']='The keyword <b>{{$1}}</b> is not present in sufficient manner in the page';
+    $lang['err_titleCoherence_misstitle']="Prima di lavorare su queste keywords devi inserire il tag title <small>(Vedi scheda <i class=\"tiny material-icons\">&#xE86F;</i> base)</small>";
+    $lang['err_wordsLevel_lowleveltxt']="Aumenta il contenuto testuale della tua pagina";
 
     /*<!---suggerimenti--->*/
+    $lang['sugg_images_attr_title']="The title attribute can be used to describe almost any HTML element. A beneficial way to use the title attribute for SEO purposes would be to use it in the link element to provide descriptive text within an anchor tag (which gives you more real estate for your targeted keyword phrases). I would suggest not to duplicate your anchor text (for usability purposes). It's supposed to provide supplementary information and let the users know where the link will direct them to if they click on it. When creating your link titles, optimize for keyword phrases you’re targeting on the linked to page (just as you would with anchor text). Search engines only use them in consideration to the page being linked to, not the page the link is on";
+
     $lang['sugg_microdata']='<h4><img class="text-img img-xs img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1000px-Google_2015_logo.svg.png">
 It explains what are the microdata.</h4><ul>
     <li>
