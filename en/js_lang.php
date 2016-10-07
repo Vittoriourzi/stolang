@@ -110,21 +110,22 @@ Length: 784 pages\"&gt;</pre>
     $lang['sugg_url_seo_friendly']='In the SEO environment it is recommended to always use the hyphen "-" and not the underscore "_" to separate the different keywords in the URL. In addition it is advisable to have a structure that contains all the letters from A to Z, all of the digits 0 to 9 and only and exclusively the following symbols: .(points) -(hyphen) and /(slash).';
 
 /* SEO AUDIT - GENERALS */
-    $lang['audit_analysis_title']="Analisi";
-    $lang['audit_try_again']="Sei pronto? Riprova questo test";
-    $lang['audit_final_valutation']="Valutazione Finale";
+    $lang['audit_analysis_title']="Analysis";
+    $lang['audit_try_again']="Are you ready? Retry this test now";
+    $lang['audit_final_valutation']="Final Valutation";
     $lang['audit_social_og']="Open Graph";
     $lang['audit_social_twittercard']="Twitter Card";
     $lang["audit_social_socialplugin"]="Social Plugin";
-    $lang['audit_social_fbrank']='Popolarità su facebook';
+    $lang['audit_social_fbrank']='Facebook Popularity';
 
 /* SEO AUDIT - SPEED ZONE */
-    $lang['audit_speed_alertcache']='*I risultati vengono memorizzati nella cache di google per 30 s. Se hai apportato modifiche alla tua pagina, aspetta 30 s prima di eseguire di nuovo il test.';
+    $lang['audit_speed_alertcache']='*
+    The results are stored in the google cache for 30 s. If you made changes to your page, wait 30 seconds before re-run the test.';
 
 /* SEO AUDIT - BASE ZONE */
-    $lang['audit_structure_menu_serp_preview']="Anteprima ricerca";
-    $lang['audit_structure_menu_description']="Descrizione";
-    $lang["audit_structure_menu_title"]="Titolo";
+    $lang['audit_structure_menu_serp_preview']="Search Preview";
+    $lang['audit_structure_menu_description']="Description";
+    $lang["audit_structure_menu_title"]="Titole";
     $lang["audit_structure_menu_h1"]="H1";
     $lang["audit_structure_menu_h2"]="H2";
     $lang["audit_structure_menu_Keywords_url"]="Keywords url";
@@ -142,23 +143,24 @@ Length: 784 pages\"&gt;</pre>
     $lang["audit_base_menu_title_coherence"]="Title Coherence";
     $lang["audit_base_menu_h1_coherence"]="H1 Coherence";
     $lang["audit_base_menu_txtcoderatio"]="Text/Code Ratio";
-    $lang["audit_base_menu_page_size"]="Dimensioni pagina";
-    $lang["audit_base_menu_img_alt"]="Alt sulle immagini";
-    $lang["audit_base_menu_title_on_a"]="Title sul tag a";
+    $lang["audit_base_menu_page_size"]="Page dimensions";
+    $lang["audit_base_menu_img_alt"]="Alt on image";
+    $lang["audit_base_menu_title_on_a"]="Title on tag a";
 
 
-    $lang["audit_base_exam_txtcoderatio"]='Il <b>text/code</b> ratio della pagina analizzata è di <b>{{$1}}%</b>';
-    $lang["audit_base_page_size_score_low"]='La pagina analizzata risulta troppo pesante';
+    $lang["audit_base_exam_txtcoderatio"]='The <b>text/code</b> ratio of the analyzed page is <b>{{$1}}%</b>';
+    $lang["audit_base_page_size_score_low"]='
+    Page analyzed is too heavy';
 
-    $lang["audit_base_exam_txt_size"]='Dimensione testo';
+    $lang["audit_base_exam_txt_size"]='Text dimension';
 
-    $lang["audit_base_exam_code_score_low"]='C\'è poco testo nella tua pagina! Lavora di più sul contentuto';
-    $lang["audit_base_exam_code_score_med"]='Il rapporto tra testo e codice html della tua pagina sembra buono';
-    $lang["audit_base_exam_code_score_high"]="Il rapporto tra testo e codice html della pagina sembra ottimo";
+    $lang["audit_base_exam_code_score_low"]='There is little text on your page! You should work more on content.';
+    $lang["audit_base_exam_code_score_med"]='The ratio between text and html code of your page looks good';
+    $lang["audit_base_exam_code_score_high"]="The ratio between text and html code of the page looks excellent";
 
-    $lang["audit_base_exam_code_size"]='Dimensione codice';
-    $lang["audit_base_exam_page_size"]='Le dimensioni della pagina analizzata sono di <b>{{$1}} KB</b>';
-    $lang["audit_base_page_size_score_high"]='Le dimensioni della pagina sono ottime';
-    $lang["audit_base_page_size_score_med"]='Le dimensioni della pagina sembrano buone';
+    $lang["audit_base_exam_code_size"]='Code dimension';
+    $lang["audit_base_exam_page_size"]='The size of the analyzed page are of <b>{{$1}} KB</b>';
+    $lang["audit_base_page_size_score_high"]='The size of the page are excellent';
+    $lang["audit_base_page_size_score_med"]='The size of the page are good';
 
 ?>
