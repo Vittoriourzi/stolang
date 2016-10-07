@@ -163,4 +163,85 @@ Length: 784 pages\"&gt;</pre>
     $lang["audit_base_page_size_score_high"]='The size of the page are excellent';
     $lang["audit_base_page_size_score_med"]='The size of the page are good';
 
+    /*** NUOVO ***/
+    $lang["audit_content_wordslevel_score_high"]='C\'è una ottima concentrazione di parole chiave nella pagina';
+    $lang["audit_content_wordslevel_score_med"]='C\'è una buona concentrazione di parole chiave nella pagina';
+    $lang["audit_content_wordslevel_score_low"]='C\'è poco testo nella tua pagina! Cerca di aumentare il contenuto testuale presente nella pagina.';
+    $lang["audit_content_wordslevel_report"]='Nella pagina sono presenti <b>{{$1}}</b> parole di cui <b>{{$2}}</b> univoche';
+    $lang["audit_content_kdensity_tab_n"]="N";
+    $lang["audit_content_kdensity_tab_qnty"]="Quantita";
+    $lang["audit_content_kdensity_tab_density"]="Densità";
+    $lang["audit_content_kdensity_tab_weight"]="Peso";
+    $lang["audit_content_kdensity_tab_a"]="a";
+    $lang["audit_content_kdensity_tab_strong"]="strong";
+    $lang["audit_content_kdensity_tab_h2"]="H2";
+    $lang["audit_content_kdensity_tab_h1"]="H1";
+    $lang["audit_content_kdensity_tab_title"]="Title";
+
+    $lang["audit_content_titlecoherence_score_high"]="Le keywords presenti nel tag <strong>&lt;title&gt;</strong> sono presenti nel corpo della pagina";
+    $lang["audit_content_titlecoherence_score_med"]="Alcune delle keywords del tag <strong>&lt;title&gt;</strong> non sono presenti nel corpo della pagina";
+    $lang["audit_content_titlecoherence_score_low"]="Nessuna keywords del tag <strong>&lt;title&gt;</strong> è presente nel corpo della pagina. Lavora di più sul testo della tua pagina per migliorare la coerenza tra keywords presenti e tag <strong>&lt;title&gt;</strong> per mirare ancora di più l\'argomento trattato dal tuo sito";
+
+    $lang["audit_content_h1coherence_score_high"]="Le keywords presenti nel tag <strong>h1</strong> sono presenti nel corpo della pagina";
+    $lang["audit_content_h1coherence_score_med"]="Alcune delle keywords del tag <strong>h1</strong> non sono presenti nel corpo della pagina";
+    $lang["audit_content_h1coherence_score_low"]="Nessuna keywords del tag <strong>h1</strong> è presente nel corpo della pagina. Lavora di più sul testo della tua pagina per migliorare la coerenza tra keywords presenti e tag <strong>h1</strong> per mirare ancora di più l\'argomento trattato dal tuo sito";
+
+
+
+    $lang["audit_content_exam_a_desc"]='<b>{{$1}} <small>/ {{$2}}</small></b> link sono stati ottimizzati con l\'attributo title.';
+
+
+    $lang["audit_content_exam_a_title"]='Title sul tag a';
+    $lang["audit_content_exam_a_problem"]='Nella pagina sono presenti <b>{{$1}} urls</b> di cui {{$2}} non hanno implementato l\'attributo title per migliorarne l\'usabilità.';
+
+    $lang["audit_content_exam_a_table_contents"]='Contenuto';
+
+    $lang["Missing"]='Mancante';
+    $lang["audit_content_exam_microdata_score_high"]='Nel pagina sono presenti tag semantici';
+
+    $lang["audit_content_exam_microdata_score_low"]='Non sono presenti <strong>microdata</strong> nel tuo sito';
+
+    $lang["audit_base_exam_metarobots_score_high"]='Il <strong>&lt;meta name="robots"&gt;</strong> è impostato bene';
+    $lang["audit_base_exam_microdata_score_low"]='Attenzione il tuo <strong>&lt;meta name="robots"&gt;</strong> ha presenta il valore NOINDEX, ciò vuol dire che questa pagina non verrà presa in considerazione da google.';
+    $lang["audit_base_exam_robots_score_high"]='Nel tuo sito è presente il file <strong>robots.txt</strong> per i crawler di google';
+
+    $lang["audit_base_exam_robots_score_low"]='Non sono presenti <strong>robots.txt</strong> nel tuo sito';
+
+    $lang["audit_base_exam_sitemap_problem"]='Inserisci il path della tua sitemap all\'interno del file robots.txt';
+    $lang["audit_base_exam_sitemap_problem_path_sitemap"]='percorso/della/sitemap/';
+
+    $lang["audit_base_exam_sitemap_score_high"]='Nel tuo sito è presente una <strong>sitemap</strong> xml.';
+
+    $lang["audit_base_exam_sitemap_score_low"]='Non è stato possibile reperire la <strong>sitemap</strong> xml all\'interno del file robots.txt.';
+
+    $lang["audit_base_exam_images_desc"]='<b>{{$1}} <small>/ {{$2}}</small></b> immagini sono state ottimizzate con l\'attributo alt.';
+
+    $lang["audit_base_exam_images_problem"]='Nella pagina sono presenti <b>{{$1}} urls</b> di cui {{$2}} non hanno implementato l\'attributo alt per migliorarne l\'usabilità e l\'indicizzazione.';
+    $lang["audit_base_serp_title"]='Anteprima di ricerca';
+
+    $lang["audit_base_exam_serp_score_high"]='La tua anteprima di ricerca sembra ottimizzata';
+
+    $lang["audit_base_exam_serp_score_med"]='Ci sei quasi! la tua anteprima di ricerca è quasi perfetta';
+
+    $lang["audit_base_exam_serp_score_low"]='C\'è ancora molto da fare per ottimizzare la tua anteprima di ricerca';
+    $lang["audit_base_exam_title_score_high"]='Il titolo della pagina sembra ottimizzato';
+
+    $lang["audit_base_exam_title_score_med"]='Il titolo della pagina non è ancora ottimizzato al meglio';
+
+    $lang["audit_base_exam_title_score_low"]='C\'è ancora molto da fare per ottimizzare il titolo della tua pagina';
+
+
+
+    $lang["audit_base_exam_desc_score_high"]='La descrizione della pagina sembra ottimizzata';
+
+    $lang["audit_base_exam_desc_score_med"]='La descrizione della pagina non è ancora ottimizzata al meglio';
+
+    $lang["audit_base_exam_desc_score_low"]='C\'è ancora molto da fare per ottimizzare la descrizione della tua pagina';
+
+
+    $lang["audit_base_exam_url_score_high"]='L\'url della pagina sembra ottimizzato';
+    $lang["audit_base_exam_url_score_med"]='L\'url della pagina non è ancora ottimizzato al meglio';
+
+    $lang["audit_base_exam_url_score_low"]='C\'è ancora molto da fare per ottimizzare l\'url della tua pagina';
+
 ?>
