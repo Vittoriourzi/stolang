@@ -164,84 +164,78 @@ Length: 784 pages\"&gt;</pre>
     $lang["audit_base_page_size_score_med"]='The size of the page are good';
 
     /*** NUOVO ***/
-    $lang["audit_content_wordslevel_score_high"]='C\'è una ottima concentrazione di parole chiave nella pagina';
-    $lang["audit_content_wordslevel_score_med"]='C\'è una buona concentrazione di parole chiave nella pagina';
-    $lang["audit_content_wordslevel_score_low"]='C\'è poco testo nella tua pagina! Cerca di aumentare il contenuto testuale presente nella pagina.';
-    $lang["audit_content_wordslevel_report"]='Nella pagina sono presenti <b>{{$1}}</b> parole di cui <b>{{$2}}</b> univoche';
+    $lang["audit_content_wordslevel_score_high"]='There is an excellent concentration of keywords in the page';
+    $lang["audit_content_wordslevel_score_med"]='There is a good concentration of keywords in the page';
+    $lang["audit_content_wordslevel_score_low"]='There is little text on your page! Seeks to increase the text content on the page.';
+    $lang["audit_content_wordslevel_report"]='This page includes <b>{{$1}}</b> words of which <b>{{$2}}</b> unique';
     $lang["audit_content_kdensity_tab_n"]="N";
-    $lang["audit_content_kdensity_tab_qnty"]="Quantita";
-    $lang["audit_content_kdensity_tab_density"]="Densità";
-    $lang["audit_content_kdensity_tab_weight"]="Peso";
+    $lang["audit_content_kdensity_tab_qnty"]="Quantity";
+    $lang["audit_content_kdensity_tab_density"]="Density";
+    $lang["audit_content_kdensity_tab_weight"]="Weight";
     $lang["audit_content_kdensity_tab_a"]="a";
     $lang["audit_content_kdensity_tab_strong"]="strong";
     $lang["audit_content_kdensity_tab_h2"]="H2";
     $lang["audit_content_kdensity_tab_h1"]="H1";
     $lang["audit_content_kdensity_tab_title"]="Title";
 
-    $lang["audit_content_titlecoherence_score_high"]="Le keywords presenti nel tag <strong>&lt;title&gt;</strong> sono presenti nel corpo della pagina";
-    $lang["audit_content_titlecoherence_score_med"]="Alcune delle keywords del tag <strong>&lt;title&gt;</strong> non sono presenti nel corpo della pagina";
-    $lang["audit_content_titlecoherence_score_low"]="Nessuna keywords del tag <strong>&lt;title&gt;</strong> è presente nel corpo della pagina. Lavora di più sul testo della tua pagina per migliorare la coerenza tra keywords presenti e tag <strong>&lt;title&gt;</strong> per mirare ancora di più l\'argomento trattato dal tuo sito";
+    $lang["audit_content_titlecoherence_score_high"]="The keywords in the tag <strong>&lt;title&gt;</strong> are included in the body of the page";
+    $lang["audit_content_titlecoherence_score_med"]="Some of the keywords of the tag <strong>&lt;title&gt;</strong> are not included in the body of the page";
+    $lang["audit_content_titlecoherence_score_low"]="No keyword of the tag <strong>&lt;title&gt;</strong> is included in the body of the page. Works harder on the text of your page to improve coherence between these keywords and the tag <strong>&lt;title&gt;</strong> to improve even more the subject matter of your site.";
 
-    $lang["audit_content_h1coherence_score_high"]="Le keywords presenti nel tag <strong>h1</strong> sono presenti nel corpo della pagina";
-    $lang["audit_content_h1coherence_score_med"]="Alcune delle keywords del tag <strong>h1</strong> non sono presenti nel corpo della pagina";
-    $lang["audit_content_h1coherence_score_low"]="Nessuna keywords del tag <strong>h1</strong> è presente nel corpo della pagina. Lavora di più sul testo della tua pagina per migliorare la coerenza tra keywords presenti e tag <strong>h1</strong> per mirare ancora di più l\'argomento trattato dal tuo sito";
+    $lang["audit_content_h1coherence_score_high"]="The keywords present in the tag <strong>h1</strong> are included in the body of the page";
+    $lang["audit_content_h1coherence_score_med"]="Some of the keywords of the tag <strong>h1</strong> are not included in the body of the page";
+    $lang["audit_content_h1coherence_score_low"]="No keyword of the tag <strong>h1</strong> is included in the body of the page. Works harder on the text of your page to improve coherence between these keywords and the tag <strong>h1</strong> to improve even more the subject matter of your site.";
 
+    $lang["audit_content_exam_a_desc"]='<b>{{$1}} <small>/ {{$2}}</small></b> links have been optimized with the title attribute.';
 
+    $lang["audit_content_exam_a_title"]='Title on tag a';
+    $lang["audit_content_exam_a_problem"]='This page includes <b>{{$1}} urls</b> of which {{$2}} have not implemented the title attribute to improve usability.';
 
-    $lang["audit_content_exam_a_desc"]='<b>{{$1}} <small>/ {{$2}}</small></b> link sono stati ottimizzati con l\'attributo title.';
+    $lang["audit_content_exam_a_table_contents"]='Content';
 
+    $lang["Missing"]='Missing';
+    $lang["audit_content_exam_microdata_score_high"]='In the page there are semantic tags';
 
-    $lang["audit_content_exam_a_title"]='Title sul tag a';
-    $lang["audit_content_exam_a_problem"]='Nella pagina sono presenti <b>{{$1}} urls</b> di cui {{$2}} non hanno implementato l\'attributo title per migliorarne l\'usabilità.';
+    $lang["audit_content_exam_microdata_score_low"]='There are no <strong>microdata</strong> in you website';
 
-    $lang["audit_content_exam_a_table_contents"]='Contenuto';
+    $lang["audit_base_exam_metarobots_score_high"]='The <strong>&lt;meta name="robots"&gt;</strong> is set correctly';
+    $lang["audit_base_exam_microdata_score_low"]='Caution, your <strong>&lt;meta name="robots"&gt;</strong> presents NOINDEX value, this means that this page will not be taken into account by google.';
+    $lang["audit_base_exam_robots_score_high"]='In your website is present the file <strong>robots.txt</strong> for crawlers of Google';
 
-    $lang["Missing"]='Mancante';
-    $lang["audit_content_exam_microdata_score_high"]='Nel pagina sono presenti tag semantici';
+    $lang["audit_base_exam_robots_score_low"]='There are no <strong>robots.txt</strong> in your website';
 
-    $lang["audit_content_exam_microdata_score_low"]='Non sono presenti <strong>microdata</strong> nel tuo sito';
+    $lang["audit_base_exam_sitemap_problem"]='Insert the path of your sitemap into the robots.txt file';
+    $lang["audit_base_exam_sitemap_problem_path_sitemap"]='path/of the/sitemap/';
 
-    $lang["audit_base_exam_metarobots_score_high"]='Il <strong>&lt;meta name="robots"&gt;</strong> è impostato bene';
-    $lang["audit_base_exam_microdata_score_low"]='Attenzione il tuo <strong>&lt;meta name="robots"&gt;</strong> ha presenta il valore NOINDEX, ciò vuol dire che questa pagina non verrà presa in considerazione da google.';
-    $lang["audit_base_exam_robots_score_high"]='Nel tuo sito è presente il file <strong>robots.txt</strong> per i crawler di google';
+    $lang["audit_base_exam_sitemap_score_high"]='In your website is present a <strong>sitemap</strong> xml.';
 
-    $lang["audit_base_exam_robots_score_low"]='Non sono presenti <strong>robots.txt</strong> nel tuo sito';
+    $lang["audit_base_exam_sitemap_score_low"]='It was not possible to find the <strong>sitemap</strong> xml into the robots.txt file';
 
-    $lang["audit_base_exam_sitemap_problem"]='Inserisci il path della tua sitemap all\'interno del file robots.txt';
-    $lang["audit_base_exam_sitemap_problem_path_sitemap"]='percorso/della/sitemap/';
+    $lang["audit_base_exam_images_desc"]='<b>{{$1}} <small>/ {{$2}}</small></b> images have been optimized with the alt attribute.';
 
-    $lang["audit_base_exam_sitemap_score_high"]='Nel tuo sito è presente una <strong>sitemap</strong> xml.';
+    $lang["audit_base_exam_images_problem"]='In the page are present <b>{{$1}} urls</b> of which {{$2}} have not implemented the alt attribute to improve usability and indexing.';
+    $lang["audit_base_serp_title"]='Search preview';
 
-    $lang["audit_base_exam_sitemap_score_low"]='Non è stato possibile reperire la <strong>sitemap</strong> xml all\'interno del file robots.txt.';
+    $lang["audit_base_exam_serp_score_high"]='Your search preview seems optimized.';
 
-    $lang["audit_base_exam_images_desc"]='<b>{{$1}} <small>/ {{$2}}</small></b> immagini sono state ottimizzate con l\'attributo alt.';
+    $lang["audit_base_exam_serp_score_med"]='You are almost there! Your search preview is almost perfect.';
 
-    $lang["audit_base_exam_images_problem"]='Nella pagina sono presenti <b>{{$1}} urls</b> di cui {{$2}} non hanno implementato l\'attributo alt per migliorarne l\'usabilità e l\'indicizzazione.';
-    $lang["audit_base_serp_title"]='Anteprima di ricerca';
+    $lang["audit_base_exam_serp_score_low"]='There is still much to do to optimize your search preview.';
+    $lang["audit_base_exam_title_score_high"]='The title of the page seems optimized.';
 
-    $lang["audit_base_exam_serp_score_high"]='La tua anteprima di ricerca sembra ottimizzata';
+    $lang["audit_base_exam_title_score_med"]='The page title is not yet optimized to best.';
 
-    $lang["audit_base_exam_serp_score_med"]='Ci sei quasi! la tua anteprima di ricerca è quasi perfetta';
+    $lang["audit_base_exam_title_score_low"]='There is still much to be done to optimize the title of your page.';
 
-    $lang["audit_base_exam_serp_score_low"]='C\'è ancora molto da fare per ottimizzare la tua anteprima di ricerca';
-    $lang["audit_base_exam_title_score_high"]='Il titolo della pagina sembra ottimizzato';
+    $lang["audit_base_exam_desc_score_high"]='The description of the page seems optimized.';
 
-    $lang["audit_base_exam_title_score_med"]='Il titolo della pagina non è ancora ottimizzato al meglio';
+    $lang["audit_base_exam_desc_score_med"]='The page description is not yet optimized to best.';
 
-    $lang["audit_base_exam_title_score_low"]='C\'è ancora molto da fare per ottimizzare il titolo della tua pagina';
+    $lang["audit_base_exam_desc_score_low"]='There is still much to be done to optimize the description of your page.';
 
+    $lang["audit_base_exam_url_score_high"]='The url of the page seems optimized.';
+    $lang["audit_base_exam_url_score_med"]='The url of the page is not yet optimized to best.';
 
-
-    $lang["audit_base_exam_desc_score_high"]='La descrizione della pagina sembra ottimizzata';
-
-    $lang["audit_base_exam_desc_score_med"]='La descrizione della pagina non è ancora ottimizzata al meglio';
-
-    $lang["audit_base_exam_desc_score_low"]='C\'è ancora molto da fare per ottimizzare la descrizione della tua pagina';
-
-
-    $lang["audit_base_exam_url_score_high"]='L\'url della pagina sembra ottimizzato';
-    $lang["audit_base_exam_url_score_med"]='L\'url della pagina non è ancora ottimizzato al meglio';
-
-    $lang["audit_base_exam_url_score_low"]='C\'è ancora molto da fare per ottimizzare l\'url della tua pagina';
+    $lang["audit_base_exam_url_score_low"]='There is still much to be done to optimize the url of your page.';
 
 ?>
