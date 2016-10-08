@@ -253,8 +253,8 @@ Lunghezza: 784 pagine\"&gt;</pre>
 /*NUOVA ROBA DA TRADURRE*/
 
     //*NEWWWWW
-    $lang["audit_base_exam_h1_high"]='Il tag H1 della tua pagina sembra ottimizzato';
-    $lang["audit_base_exam_h1_low"]='Il tag H1 della tua pagina non è ottimizzato';
+    $lang["audit_base_exam_h1_score_high"]='Il tag H1 della tua pagina sembra ottimizzato';
+    $lang["audit_base_exam_h1_score_low"]='Il tag H1 della tua pagina non è ottimizzato';
     $lang["audit_base_exam_h2_score_high"]='Il tag H2 della tua pagina sembra ottimizzato';
     $lang["audit_base_exam_h2_score_low"]='Il tag H2 della tua pagina non è ottimizzato';
 
