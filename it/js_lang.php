@@ -259,12 +259,12 @@ Lunghezza: 784 pagine\"&gt;</pre>
     $lang["audit_base_exam_h2_score_low"]='Il tag H2 della tua pagina non è ottimizzato';
 
 //NEWWWWW2
-    $lang["audit_social_exam_opengraph_descr_score_high"]='Open Graph is used';
 
-    $lang["audit_social_exam_opengraph_descr_score_med"]='Open Graph is incomplete';
+    $lang["audit_social_exam_opengraph_descr_score_high"]='I meta tag OpenGraph sono stati impostati perfettamente';
 
-    $lang["audit_social_exam_opengraph_descr_score_low"]='Open Graph is not used';
+    $lang["audit_social_exam_opengraph_descr_score_med"]='I meta tag OpenGraph sono incompleti';
 
+    $lang["audit_social_exam_opengraph_descr_score_low"]='I meta tag OpenGraph non sono ancora stati impostati';
     $lang["audit_social_exam_opengraph_descr_miss_image"]='Immagine non specificata<br>Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta property="og:image"&gt;';
 
     $lang["audit_social_exam_opengraph_descr_miss_descr"]='Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta property="og:description"&gt;';
