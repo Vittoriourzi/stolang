@@ -245,4 +245,80 @@ Lunghezza: 784 pagine\"&gt;</pre>
     $lang["audit_base_exam_url_score_med"]='L\'url della pagina non è ancora ottimizzato al meglio';
 
     $lang["audit_base_exam_url_score_low"]='C\'è ancora molto da fare per ottimizzare l\'url della tua pagina';
+
+
+
+/*NUOVA ROBA DA TRADURRE*/
+
+    //*NEWWWWW
+    $lang["audit_base_exam_h1_score_high"]='Il tag H1 della tua pagina sembra ottimizzato';
+    $lang["audit_base_exam_h1_score_low"]='Il tag H1 della tua pagina non è ottimizzato';
+    $lang["audit_base_exam_h2_score_high"]='Il tag H2 della tua pagina sembra ottimizzato';
+    $lang["audit_base_exam_h2_score_low"]='Il tag H2 della tua pagina non è ottimizzato';
+
+//NEWWWWW2
+
+    $lang["audit_social_exam_opengraph_descr_score_high"]='I meta tag OpenGraph sono stati impostati perfettamente';
+
+    $lang["audit_social_exam_opengraph_descr_score_med"]='I meta tag OpenGraph sono incompleti';
+
+    $lang["audit_social_exam_opengraph_descr_score_low"]='I meta tag OpenGraph non sono ancora stati impostati';
+    $lang["audit_social_exam_opengraph_descr_miss_image"]='Immagine non specificata<br>Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta property="og:image"&gt;';
+
+    $lang["audit_social_exam_opengraph_descr_miss_descr"]='Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta property="og:description"&gt;';
+
+    $lang["audit_social_exam_opengraph_descr_miss_title"]='Specifica un Titolo nell\'attributo content del tag <b>&lt;meta property="og:title"&gt;</b>';
+
+    $lang["audit_social_exam_opengraph_descr_miss_url"]='Specifica un Url nell\'attributo content del tag  <b>&lt;meta property="og:url"&gt;</b>';
+
+    $lang["audit_social_exam_fbpopularity_title"]="Popolarità su facebook";
+
+    $lang["audit_social_exam_fbpopularity_report_title"]='Analisi delle interazioni facebook dell\'url';
+
+    $lang["audit_social_exam_fbpopularity_report_comments"]='Commenti';
+
+    $lang["audit_social_exam_fbpopularity_report_shares"]='Condivisioni';
+
+    $lang["audit_social_exam_fbpopularity_report_total"]='Totale';
+    $lang["audit_social_exam_fbpopularity_score_high"]='Questa pagina ha un ottimo livello di popolarità su facebook';
+    $lang["audit_social_exam_fbpopularity_score_low"]='Questa pagina non è ancora stata promossa abbastanza su facebook';
+
+
+    $lang["audit_social_exam_social_plugin_score_high"]='Sono presenti plugin social all\'interno della pagina';
+
+    $lang["audit_social_exam_social_plugin_score_low"]='Non sono presenti plugin social all\'interno della pagina';
+
+    $lang["audit_social_exam_social_plugin_tab_fbshares"]='Condividi Facebook';
+
+    $lang["audit_social_exam_social_plugin_tab_retweet"]='Retweet Twitter';
+
+    $lang["audit_social_exam_social_plugin_tab_gplusshares"]='Condividi Google+';
+
+
+    $lang["audit_social_exam_twittercard_score_high"]='La twitter card è impostata bene!';
+
+    $lang["audit_social_exam_twittercard_score_med"]='La twitter card è quasi pronta, mancano ancora alcuni accorgimenti';
+
+    $lang["audit_social_exam_twittercard_score_low"]='La twitter card è incompleta';
+
+    $lang["audit_social_exam_twittercard_miss_tagimage"]='Immagine non specificata<br>Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta name="twitter:image"&gt;</b>';
+
+    $lang["audit_social_exam_twittercard_miss_tagdescr"]='Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta name="twitter:description"&gt;</b>';
+
+    $lang["audit_social_exam_twittercard_miss_tagtitle"]='Specifica un Titolo nell\'attributo content del tag <b>&lt;meta name="twitter:title"&gt;</b>';
+
+    $lang["audit_social_exam_twittercard_miss_tagsite"]='Specifica un Url nell\'attributo content del tag  <b>&lt;meta name="twitter:site"&gt;</b>';
+
+    $lang["seo_audit_retry_the_test"]='Effettua un nuovo test';
+
+    $lang["seo_audit_base_exam_ratiotextcode_title"]='Text/Code Ratio';
+
+    $lang["seo_audit_base_exam_pagesize_title"]='Dimensione della pagina';
+
+    $lang["seo_audit_contents_exam_keyword_density"]='Keywords Density';
+
+    $lang["seo_audit_contents_exam_titlecoherence"]='Title Coherence';
+
+    $lang["google_terms_of_use"]='Portions of this page are reproduced from work created and <a href="/readme/policies/">shared by Google</a> and used according to terms described in the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution License</a>.';
+
 ?>
