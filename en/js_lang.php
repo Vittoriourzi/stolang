@@ -1,4 +1,4 @@
-<?php
+<?
     $lang['auth-wrong-user']="Wrong credential, try again";
 
     $lang['auth-fb-continue-as']='<i class="left fa fa-facebook-official" aria-hidden="true"></i> Continue as <b>{{$1}}</b>';
@@ -314,5 +314,10 @@ Length: 784 pages\"&gt;</pre>
 
     $lang["google_terms_of_use"]='Portions of this page are reproduced from work created and <a href="/readme/policies/">shared by Google</a> and used according to terms described in the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution License</a>.';
 
+    $lang["seo_audit_tab_result"]='Overview';
+    $lang["seo_audit_tab_base"]='Base';
+    $lang["seo_audit_tab_contents"]='Contents';
+    $lang["seo_audit_tab_speed"]='Performace';
+    $lang["seo_audit_tab_social"]='Social';
 
 ?>

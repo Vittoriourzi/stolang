@@ -184,11 +184,13 @@ Lunghezza: 784 pagine\"&gt;</pre>
 
     $lang["audit_content_titlecoherence_score_high"]="Le keywords presenti nel tag <strong>&lt;title&gt;</strong> sono presenti nel corpo della pagina";
     $lang["audit_content_titlecoherence_score_med"]="Alcune delle keywords del tag <strong>&lt;title&gt;</strong> non sono presenti nel corpo della pagina";
-    $lang["audit_content_titlecoherence_score_low"]="Nessuna keywords del tag <strong>&lt;title&gt;</strong> è presente nel corpo della pagina. Lavora di più sul testo della tua pagina per migliorare la coerenza tra keywords presenti e tag <strong>&lt;title&gt;</strong> per migliorare ancora di più l\'argomento trattato dal tuo sito";
+    $lang["audit_content_titlecoherence_score_low"]="Nessuna keywords del tag <strong>&lt;title&gt;</strong> è presente nel corpo della pagina. Lavora di più sul testo della tua pagina per migliorare la coerenza tra keywords presenti e tag <strong>&lt;title&gt;</strong> per mirare ancora di più l\'argomento trattato dal tuo sito";
 
     $lang["audit_content_h1coherence_score_high"]="Le keywords presenti nel tag <strong>h1</strong> sono presenti nel corpo della pagina";
     $lang["audit_content_h1coherence_score_med"]="Alcune delle keywords del tag <strong>h1</strong> non sono presenti nel corpo della pagina";
     $lang["audit_content_h1coherence_score_low"]="Nessuna keywords del tag <strong>h1</strong> è presente nel corpo della pagina. Lavora di più sul testo della tua pagina per migliorare la coerenza tra keywords presenti e tag <strong>h1</strong> per mirare ancora di più l\'argomento trattato dal tuo sito";
+
+
 
     $lang["audit_content_exam_a_desc"]='<b>{{$1}} <small>/ {{$2}}</small></b> link sono stati ottimizzati con l\'attributo title.';
 
@@ -199,12 +201,12 @@ Lunghezza: 784 pagine\"&gt;</pre>
     $lang["audit_content_exam_a_table_contents"]='Contenuto';
 
     $lang["Missing"]='Mancante';
-    $lang["audit_content_exam_microdata_score_high"]='Nella pagina sono presenti tag semantici';
+    $lang["audit_content_exam_microdata_score_high"]='Nel pagina sono presenti tag semantici';
 
     $lang["audit_content_exam_microdata_score_low"]='Non sono presenti <strong>microdata</strong> nel tuo sito';
 
     $lang["audit_base_exam_metarobots_score_high"]='Il <strong>&lt;meta name="robots"&gt;</strong> è impostato bene';
-    $lang["audit_base_exam_microdata_score_low"]='Attenzione il tuo <strong>&lt;meta name="robots"&gt;</strong> presenta il valore NOINDEX, ciò vuol dire che questa pagina non verrà presa in considerazione da google.';
+    $lang["audit_base_exam_microdata_score_low"]='Attenzione il tuo <strong>&lt;meta name="robots"&gt;</strong> ha presenta il valore NOINDEX, ciò vuol dire che questa pagina non verrà presa in considerazione da google.';
     $lang["audit_base_exam_robots_score_high"]='Nel tuo sito è presente il file <strong>robots.txt</strong> per i crawler di google';
 
     $lang["audit_base_exam_robots_score_low"]='Non sono presenti <strong>robots.txt</strong> nel tuo sito';
@@ -257,12 +259,12 @@ Lunghezza: 784 pagine\"&gt;</pre>
     $lang["audit_base_exam_h2_score_low"]='Il tag H2 della tua pagina non è ottimizzato';
 
 //NEWWWWW2
-
     $lang["audit_social_exam_opengraph_descr_score_high"]='I meta tag OpenGraph sono stati impostati perfettamente';
 
     $lang["audit_social_exam_opengraph_descr_score_med"]='I meta tag OpenGraph sono incompleti';
 
     $lang["audit_social_exam_opengraph_descr_score_low"]='I meta tag OpenGraph non sono ancora stati impostati';
+
     $lang["audit_social_exam_opengraph_descr_miss_image"]='Immagine non specificata<br>Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta property="og:image"&gt;';
 
     $lang["audit_social_exam_opengraph_descr_miss_descr"]='Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta property="og:description"&gt;';
@@ -320,5 +322,11 @@ Lunghezza: 784 pagine\"&gt;</pre>
     $lang["seo_audit_contents_exam_titlecoherence"]='Title Coherence';
 
     $lang["google_terms_of_use"]='Portions of this page are reproduced from work created and <a href="/readme/policies/">shared by Google</a> and used according to terms described in the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution License</a>.';
+
+    $lang["seo_audit_tab_result"]='Risultato';
+    $lang["seo_audit_tab_base"]='Base';
+    $lang["seo_audit_tab_contents"]='Contenuto';
+    $lang["seo_audit_tab_speed"]='Velocità';
+    $lang["seo_audit_tab_social"]='Social';
 
 ?>
