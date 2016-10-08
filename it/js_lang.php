@@ -184,13 +184,11 @@ Lunghezza: 784 pagine\"&gt;</pre>
 
     $lang["audit_content_titlecoherence_score_high"]="Le keywords presenti nel tag <strong>&lt;title&gt;</strong> sono presenti nel corpo della pagina";
     $lang["audit_content_titlecoherence_score_med"]="Alcune delle keywords del tag <strong>&lt;title&gt;</strong> non sono presenti nel corpo della pagina";
-    $lang["audit_content_titlecoherence_score_low"]="Nessuna keywords del tag <strong>&lt;title&gt;</strong> è presente nel corpo della pagina. Lavora di più sul testo della tua pagina per migliorare la coerenza tra keywords presenti e tag <strong>&lt;title&gt;</strong> per mirare ancora di più l\'argomento trattato dal tuo sito";
+    $lang["audit_content_titlecoherence_score_low"]="Nessuna keywords del tag <strong>&lt;title&gt;</strong> è presente nel corpo della pagina. Lavora di più sul testo della tua pagina per migliorare la coerenza tra keywords presenti e tag <strong>&lt;title&gt;</strong> per migliorare ancora di più l\'argomento trattato dal tuo sito";
 
     $lang["audit_content_h1coherence_score_high"]="Le keywords presenti nel tag <strong>h1</strong> sono presenti nel corpo della pagina";
     $lang["audit_content_h1coherence_score_med"]="Alcune delle keywords del tag <strong>h1</strong> non sono presenti nel corpo della pagina";
     $lang["audit_content_h1coherence_score_low"]="Nessuna keywords del tag <strong>h1</strong> è presente nel corpo della pagina. Lavora di più sul testo della tua pagina per migliorare la coerenza tra keywords presenti e tag <strong>h1</strong> per mirare ancora di più l\'argomento trattato dal tuo sito";
-
-
 
     $lang["audit_content_exam_a_desc"]='<b>{{$1}} <small>/ {{$2}}</small></b> link sono stati ottimizzati con l\'attributo title.';
 
@@ -201,12 +199,12 @@ Lunghezza: 784 pagine\"&gt;</pre>
     $lang["audit_content_exam_a_table_contents"]='Contenuto';
 
     $lang["Missing"]='Mancante';
-    $lang["audit_content_exam_microdata_score_high"]='Nel pagina sono presenti tag semantici';
+    $lang["audit_content_exam_microdata_score_high"]='Nella pagina sono presenti tag semantici';
 
     $lang["audit_content_exam_microdata_score_low"]='Non sono presenti <strong>microdata</strong> nel tuo sito';
 
     $lang["audit_base_exam_metarobots_score_high"]='Il <strong>&lt;meta name="robots"&gt;</strong> è impostato bene';
-    $lang["audit_base_exam_microdata_score_low"]='Attenzione il tuo <strong>&lt;meta name="robots"&gt;</strong> ha presenta il valore NOINDEX, ciò vuol dire che questa pagina non verrà presa in considerazione da google.';
+    $lang["audit_base_exam_microdata_score_low"]='Attenzione il tuo <strong>&lt;meta name="robots"&gt;</strong> presenta il valore NOINDEX, ciò vuol dire che questa pagina non verrà presa in considerazione da google.';
     $lang["audit_base_exam_robots_score_high"]='Nel tuo sito è presente il file <strong>robots.txt</strong> per i crawler di google';
 
     $lang["audit_base_exam_robots_score_low"]='Non sono presenti <strong>robots.txt</strong> nel tuo sito';
