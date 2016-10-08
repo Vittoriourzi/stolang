@@ -244,69 +244,69 @@ Length: 784 pages\"&gt;</pre>
 /*NUOVA ROBA DA TRADURRE*/
 
     //*NEWWWWW
-    $lang["audit_base_exam_h1_score_high"]='Il tag H1 della tua pagina sembra ottimizzato';
-    $lang["audit_base_exam_h1_score_low"]='Il tag H1 della tua pagina non è ottimizzato';
-    $lang["audit_base_exam_h2_score_high"]='Il tag H2 della tua pagina sembra ottimizzato';
-    $lang["audit_base_exam_h2_score_low"]='Il tag H2 della tua pagina non è ottimizzato';
+    $lang["audit_base_exam_h1_score_high"]='The H1 tag of your page seems optimized.';
+    $lang["audit_base_exam_h1_score_low"]='The H1 tag of your page seems not optimized.';
+    $lang["audit_base_exam_h2_score_high"]='The H2 tag of your page seems optimized.';
+    $lang["audit_base_exam_h2_score_low"]='The H2 tag of your page seems not optimized.';
 
 //NEWWWWW2
-    $lang["audit_social_exam_opengraph_descr_score_high"]='I meta tag OpenGraph sono stati impostati perfettamente';
+    $lang["audit_social_exam_opengraph_descr_score_high"]='The OpenGraph meta tags are set perfectly.';
 
-    $lang["audit_social_exam_opengraph_descr_score_med"]='I meta tag OpenGraph sono incompleti';
+    $lang["audit_social_exam_opengraph_descr_score_med"]='The OpenGraph meta tags are incomplete.';
 
-    $lang["audit_social_exam_opengraph_descr_score_low"]='I meta tag OpenGraph non sono ancora stati impostati';
+    $lang["audit_social_exam_opengraph_descr_score_low"]='The OpenGraph meta tags are not set';
 
-    $lang["audit_social_exam_opengraph_descr_miss_image"]='Immagine non specificata<br>Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta property="og:image"&gt;';
+    $lang["audit_social_exam_opengraph_descr_miss_image"]='Unspecified image<br>Specify a description in the attribute content of the tag <b>&lt;meta property="og:image"&gt;';
 
-    $lang["audit_social_exam_opengraph_descr_miss_descr"]='Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta property="og:description"&gt;';
+    $lang["audit_social_exam_opengraph_descr_miss_descr"]='Specify a description in the attribute content of the tag <b>&lt;meta property="og:description"&gt;';
 
-    $lang["audit_social_exam_opengraph_descr_miss_title"]='Specifica un Titolo nell\'attributo content del tag <b>&lt;meta property="og:title"&gt;</b>';
+    $lang["audit_social_exam_opengraph_descr_miss_title"]='Specify a title in the attribute content of the tag <b>&lt;meta property="og:title"&gt;</b>';
 
-    $lang["audit_social_exam_opengraph_descr_miss_url"]='Specifica un Url nell\'attributo content del tag  <b>&lt;meta property="og:url"&gt;</b>';
+    $lang["audit_social_exam_opengraph_descr_miss_url"]='Specify a URL in the attribute content of the tag <b>&lt;meta property="og:url"&gt;</b>';
 
-    $lang["audit_social_exam_fbpopularity_title"]="Popolarità su facebook";
+    $lang["audit_social_exam_fbpopularity_title"]="Facebook popularity.";
 
-    $lang["audit_social_exam_fbpopularity_report_title"]='Analisi delle interazioni facebook dell\'url';
+    $lang["audit_social_exam_fbpopularity_report_title"]='Analyis of Facebook interaction of the URL';
 
-    $lang["audit_social_exam_fbpopularity_report_comments"]='Commenti';
+    $lang["audit_social_exam_fbpopularity_report_comments"]='Comments';
 
-    $lang["audit_social_exam_fbpopularity_report_shares"]='Condivisioni';
+    $lang["audit_social_exam_fbpopularity_report_shares"]='Shares';
 
-    $lang["audit_social_exam_fbpopularity_report_total"]='Totale';
-    $lang["audit_social_exam_fbpopularity_score_high"]='Questa pagina ha un ottimo livello di popolarità su facebook';
-    $lang["audit_social_exam_fbpopularity_score_low"]='Questa pagina non è ancora stata promossa abbastanza su facebook';
+    $lang["audit_social_exam_fbpopularity_report_total"]='Total';
+    $lang["audit_social_exam_fbpopularity_score_high"]='This page has a good level of popularity on facebook';
+    $lang["audit_social_exam_fbpopularity_score_low"]='This page has not been promoted enough on facebook';
 
 
-    $lang["audit_social_exam_social_plugin_score_high"]='Sono presenti plugin social all\'interno della pagina';
+    $lang["audit_social_exam_social_plugin_score_high"]='There are social plugin within the page.';
 
-    $lang["audit_social_exam_social_plugin_score_low"]='Non sono presenti plugin social all\'interno della pagina';
+    $lang["audit_social_exam_social_plugin_score_low"]='There are not social plugin within the page.';
 
-    $lang["audit_social_exam_social_plugin_tab_fbshares"]='Condividi Facebook';
+    $lang["audit_social_exam_social_plugin_tab_fbshares"]='Share Facebook';
 
     $lang["audit_social_exam_social_plugin_tab_retweet"]='Retweet Twitter';
 
-    $lang["audit_social_exam_social_plugin_tab_gplusshares"]='Condividi Google+';
+    $lang["audit_social_exam_social_plugin_tab_gplusshares"]='Share Google+';
 
 
-    $lang["audit_social_exam_twittercard_score_high"]='La twitter card è impostata bene!';
+    $lang["audit_social_exam_twittercard_score_high"]='The Twitter card is set right!';
 
-    $lang["audit_social_exam_twittercard_score_med"]='La twitter card è quasi pronta, mancano ancora alcuni accorgimenti';
+    $lang["audit_social_exam_twittercard_score_med"]='The Twitter card is almost ready, there are still some tricks.';
 
-    $lang["audit_social_exam_twittercard_score_low"]='La twitter card è incompleta';
+    $lang["audit_social_exam_twittercard_score_low"]='The Twitter card is incomplete';
 
-    $lang["audit_social_exam_twittercard_miss_tagimage"]='Immagine non specificata<br>Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta name="twitter:image"&gt;</b>';
+    $lang["audit_social_exam_twittercard_miss_tagimage"]='Unspecified image<br>Specify a description in the attribute content of the tag  <b>&lt;meta name="twitter:image"&gt;</b>';
 
-    $lang["audit_social_exam_twittercard_miss_tagdescr"]='Specifica una descrizione nell\'attributo content del tag  <b>&lt;meta name="twitter:description"&gt;</b>';
+    $lang["audit_social_exam_twittercard_miss_tagdescr"]='Specify a description in the attribute content of the tag <b>&lt;meta name="twitter:description"&gt;</b>';
 
-    $lang["audit_social_exam_twittercard_miss_tagtitle"]='Specifica un Titolo nell\'attributo content del tag <b>&lt;meta name="twitter:title"&gt;</b>';
+    $lang["audit_social_exam_twittercard_miss_tagtitle"]='Specify a title in the attribute content of the tag<b>&lt;meta name="twitter:title"&gt;</b>';
 
-    $lang["audit_social_exam_twittercard_miss_tagsite"]='Specifica un Url nell\'attributo content del tag  <b>&lt;meta name="twitter:site"&gt;</b>';
+    $lang["audit_social_exam_twittercard_miss_tagsite"]='Specify a URL in the attribute content of the tag  <b>&lt;meta name="twitter:site"&gt;</b>';
 
-    $lang["seo_audit_retry_the_test"]='Effettua un nuovo test';
+    $lang["seo_audit_retry_the_test"]='Make a new test.';
 
     $lang["seo_audit_base_exam_ratiotextcode_title"]='Text/Code Ratio';
 
-    $lang["seo_audit_base_exam_pagesize_title"]='Dimensione della pagina';
+    $lang["seo_audit_base_exam_pagesize_title"]='Page size';
 
     $lang["seo_audit_contents_exam_keyword_density"]='Keywords Density';
 
