@@ -30,6 +30,9 @@
     $lang['err_a_miss_title']="In alcuni dei dei tuoi links (tag <b>&lt;A&gt;</b>) non è stato curato l'attributo title che permette di migliorare l'usabilità.";
     $lang['err_urlaction_not_friendly']='Alcune parti del tuo url non sono SEO FRIENDLY per i motori di ricerca. Nell\'ambiente SEO si consiglia di utilizzare sempre il trattino "-" e non l\'underscore "_" per separare le diverse keyword all\'interno della URL. In oltre è consigliabile avere una struttura che contenga tutte le lettere dalla A alla Z, tutti le cifre da 0 a 9 e solo ed esclusivamente i seguenti simboli: .(punti) -(trattini) e /(slash).';
 
+    $lang['audit_base_exam_urlseofriendly_score_high']="L'url preso in esame è SEO friendly";
+    $lang['audit_base_exam_urlseofriendly_score_low']="L'url non è SEO friendly";
+
     $lang['err_url_misskeywordstitle']='Nella tua <b>URL</b> mancano alcune keywords <code>[{{$2}}]</code> contenute nel tag <b>&lt;{{$4}}&gt;</b> <blockquote><b>&lt;{{$4}}&gt;</b>{{$1}}<b>&lt;/{{$4}}&gt;</b></blockquote>E\' sempre consigliabile inserire le keywords per che aumentano l\'indicizzazione rispetto un determinato argomento presente nel sito. Nel caso si tratti di una index page allora questo aspetto risulterà meno pesato. In caso contrario è sempre consigliabile riscrivere l\'url in modo tale che contenga parti del titolo <pre><br> Esempio di struttura ottimale: <br> {{$3}} ';
 
     $lang['err_url_misskeywordstitle_index']='Nella tua <b>URL</b> mancano alcune keywords <code>[{{$2}}]</code> contenute nel tag <b>&lt;{{$3}}&gt;</b> <blockquote><b>&lt;{{$3}}&gt;</b>{{$1}}<b>&lt;/{{$3}}&gt;</b></blockquote>E\' sempre consigliabile inserire le keywords per che aumentano l\'indicizzazione rispetto un determinato argomento presente nel sito. Nel caso si tratti di una index page allora questo aspetto risulterà meno pesato. In caso contrario è sempre consigliabile riscrivere l\'url in modo tale che contenga parti del titolo';
