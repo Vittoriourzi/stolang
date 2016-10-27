@@ -3,7 +3,7 @@
         {
             type: "analysis",
             id: "keyword_base_stat",
-            title: "keyword_base_stat",
+            title: "keyword_base_stat_t",
             data: {
                 cpc: 0.77,
                 competition: 0.07,
@@ -18,33 +18,9 @@
         {
             type: "exam",
             id: "keyword_difficulty",
-            title: "keyword_difficulty",
-            data: [],
-            messages: [],
-            suggestions: [],
-            problems: [],
-            valutation: {
-                score: 88,
-                score_type: "0_100_scale"
-            }
-},
-        {
-            type: "exam",
-            id: "keyword_potential",
-            title: "keyword_potential",
-            data: [],
-            messages: [],
-            suggestions: [],
-            problems: [],
-            valutation: {
-                score: 93,
-                score_type: "0_100_scale"
-            }
-},
-        {
-            type: "exam",
-            id: "keyword_opportunity",
-            title: "keyword_opportunity",
+            title: "keyword_difficulty_t",
+            : "keyword_potential_title",
+            : "keyword_opportunity_title",
             data: [],
             messages: [],
             suggestions: [],
@@ -57,7 +33,7 @@
         {
             type: "analysis",
             id: "keyword_related",
-            title: "keyword_related",
+            title: "keyword_related_t",
             data: {
                 pizza: [
 "pizzabo",
@@ -79,7 +55,7 @@
         {
             type: "analysis",
             id: "keyword_trend",
-            title: "keyword_trend",
+            title: "keyword_trend_t",
             data: {
                 iframe: "<iframe scrolling="
                 no " style="
@@ -99,7 +75,7 @@
             {
                 type: "analysis",
                 id: "suggestion_alphabetical",
-                title: "suggestion_alphabetical",
+                title: "suggestion_alphabetical_t",
                 data: [
                     {
                         pizza a: [
@@ -473,7 +449,7 @@
             {
                 type: "analysis",
                 id: "suggestion_questions",
-                title: "suggestion_questions",
+                title: "suggestion_questions_t",
                 data: [
                     {
                         come pizza: [
@@ -553,7 +529,7 @@
             {
                 type: "analysis",
                 id: "suggestion_prepositions",
-                title: "suggestion_prepositions",
+                title: "suggestion_prepositions_t",
                 data: [
                     {
                         pizz come: [
@@ -612,14 +588,14 @@
     audit: {
         type: "exam",
         id: "seo_audit_urls_summary",
-        title: "seo_audit_urls_summary",
+        title: "seo_audit_urls_summary_t",
         data: [
             {
                 request: "https://it.wikipedia.org/wiki/Pizza",
                 final: {
                     type: "exam",
                     id: "seo_audit",
-                    title: "seo_audit",
+                    title: "seo_audit_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -632,7 +608,7 @@
                 base: {
                     type: "exam",
                     id: "seo_audit_base_report",
-                    title: "seo_audit_base_report",
+                    title: "seo_audit_base_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -645,7 +621,7 @@
                 accessibility: {
                     type: "exam",
                     id: "seo_audit_accessibility_report",
-                    title: "seo_audit_accessibility_report",
+                    title: "seo_audit_accessibility_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -658,7 +634,7 @@
                 content: {
                     type: "exam",
                     id: "seo_audit_content_report",
-                    title: "seo_audit_content_report",
+                    title: "seo_audit_content_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -671,7 +647,7 @@
                 performance: {
                     type: "exam",
                     id: "speedinsight_audit_report",
-                    title: "speedinsight_audit_report",
+                    title: "speedinsight_audit_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -684,7 +660,7 @@
                 social: {
                     type: "exam",
                     id: "seo_audit_social_report",
-                    title: "seo_audit_social_report",
+                    title: "seo_audit_social_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -700,7 +676,7 @@
                 final: {
                     type: "exam",
                     id: "seo_audit",
-                    title: "seo_audit",
+                    title: "seo_audit_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -713,7 +689,7 @@
                 base: {
                     type: "exam",
                     id: "seo_audit_base_report",
-                    title: "seo_audit_base_report",
+                    title: "seo_audit_base_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -726,7 +702,7 @@
                 accessibility: {
                     type: "exam",
                     id: "seo_audit_accessibility_report",
-                    title: "seo_audit_accessibility_report",
+                    title: "seo_audit_accessibility_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -739,7 +715,7 @@
                 content: {
                     type: "exam",
                     id: "seo_audit_content_report",
-                    title: "seo_audit_content_report",
+                    title: "seo_audit_content_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -752,7 +728,7 @@
                 performance: {
                     type: "exam",
                     id: "speedinsight_audit_report",
-                    title: "speedinsight_audit_report",
+                    title: "speedinsight_audit_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -765,7 +741,7 @@
                 social: {
                     type: "exam",
                     id: "seo_audit_social_report",
-                    title: "seo_audit_social_report",
+                    title: "seo_audit_social_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -781,7 +757,7 @@
                 final: {
                     type: "exam",
                     id: "seo_audit",
-                    title: "seo_audit",
+                    title: "seo_audit_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -794,7 +770,7 @@
                 base: {
                     type: "exam",
                     id: "seo_audit_base_report",
-                    title: "seo_audit_base_report",
+                    title: "seo_audit_base_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -807,7 +783,7 @@
                 accessibility: {
                     type: "exam",
                     id: "seo_audit_accessibility_report",
-                    title: "seo_audit_accessibility_report",
+                    title: "seo_audit_accessibility_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -820,7 +796,7 @@
                 content: {
                     type: "exam",
                     id: "seo_audit_content_report",
-                    title: "seo_audit_content_report",
+                    title: "seo_audit_content_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -833,7 +809,7 @@
                 performance: {
                     type: "exam",
                     id: "speedinsight_audit_report",
-                    title: "speedinsight_audit_report",
+                    title: "speedinsight_audit_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -846,7 +822,7 @@
                 social: {
                     type: "exam",
                     id: "seo_audit_social_report",
-                    title: "seo_audit_social_report",
+                    title: "seo_audit_social_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -862,7 +838,7 @@
                 final: {
                     type: "exam",
                     id: "seo_audit",
-                    title: "seo_audit",
+                    title: "seo_audit_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -875,7 +851,7 @@
                 base: {
                     type: "exam",
                     id: "seo_audit_base_report",
-                    title: "seo_audit_base_report",
+                    title: "seo_audit_base_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -888,7 +864,7 @@
                 accessibility: {
                     type: "exam",
                     id: "seo_audit_accessibility_report",
-                    title: "seo_audit_accessibility_report",
+                    title: "seo_audit_accessibility_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -901,7 +877,7 @@
                 content: {
                     type: "exam",
                     id: "seo_audit_content_report",
-                    title: "seo_audit_content_report",
+                    title: "seo_audit_content_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -914,7 +890,7 @@
                 performance: {
                     type: "exam",
                     id: "speedinsight_audit_report",
-                    title: "speedinsight_audit_report",
+                    title: "speedinsight_audit_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -927,7 +903,7 @@
                 social: {
                     type: "exam",
                     id: "seo_audit_social_report",
-                    title: "seo_audit_social_report",
+                    title: "seo_audit_social_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -943,7 +919,7 @@
                 final: {
                     type: "exam",
                     id: "seo_audit",
-                    title: "seo_audit",
+                    title: "seo_audit_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -956,7 +932,7 @@
                 base: {
                     type: "exam",
                     id: "seo_audit_base_report",
-                    title: "seo_audit_base_report",
+                    title: "seo_audit_base_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -969,7 +945,7 @@
                 accessibility: {
                     type: "exam",
                     id: "seo_audit_accessibility_report",
-                    title: "seo_audit_accessibility_report",
+                    title: "seo_audit_accessibility_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -982,7 +958,7 @@
                 content: {
                     type: "exam",
                     id: "seo_audit_content_report",
-                    title: "seo_audit_content_report",
+                    title: "seo_audit_content_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -995,7 +971,7 @@
                 performance: {
                     type: "exam",
                     id: "speedinsight_audit_report",
-                    title: "speedinsight_audit_report",
+                    title: "speedinsight_audit_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1008,7 +984,7 @@
                 social: {
                     type: "exam",
                     id: "seo_audit_social_report",
-                    title: "seo_audit_social_report",
+                    title: "seo_audit_social_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1024,7 +1000,7 @@
                 final: {
                     type: "exam",
                     id: "seo_audit",
-                    title: "seo_audit",
+                    title: "seo_audit_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1037,7 +1013,7 @@
                 base: {
                     type: "exam",
                     id: "seo_audit_base_report",
-                    title: "seo_audit_base_report",
+                    title: "seo_audit_base_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1050,7 +1026,7 @@
                 accessibility: {
                     type: "exam",
                     id: "seo_audit_accessibility_report",
-                    title: "seo_audit_accessibility_report",
+                    title: "seo_audit_accessibility_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1063,7 +1039,7 @@
                 content: {
                     type: "exam",
                     id: "seo_audit_content_report",
-                    title: "seo_audit_content_report",
+                    title: "seo_audit_content_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1076,7 +1052,7 @@
                 performance: {
                     type: "exam",
                     id: "speedinsight_audit_report",
-                    title: "speedinsight_audit_report",
+                    title: "speedinsight_audit_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1089,7 +1065,7 @@
                 social: {
                     type: "exam",
                     id: "seo_audit_social_report",
-                    title: "seo_audit_social_report",
+                    title: "seo_audit_social_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1105,7 +1081,7 @@
                 final: {
                     type: "exam",
                     id: "seo_audit",
-                    title: "seo_audit",
+                    title: "seo_audit_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1118,7 +1094,7 @@
                 base: {
                     type: "exam",
                     id: "seo_audit_base_report",
-                    title: "seo_audit_base_report",
+                    title: "seo_audit_base_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1131,7 +1107,7 @@
                 accessibility: {
                     type: "exam",
                     id: "seo_audit_accessibility_report",
-                    title: "seo_audit_accessibility_report",
+                    title: "seo_audit_accessibility_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1144,7 +1120,7 @@
                 content: {
                     type: "exam",
                     id: "seo_audit_content_report",
-                    title: "seo_audit_content_report",
+                    title: "seo_audit_content_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1157,7 +1133,7 @@
                 performance: {
                     type: "exam",
                     id: "speedinsight_audit_report",
-                    title: "speedinsight_audit_report",
+                    title: "speedinsight_audit_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1170,7 +1146,7 @@
                 social: {
                     type: "exam",
                     id: "seo_audit_social_report",
-                    title: "seo_audit_social_report",
+                    title: "seo_audit_social_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1186,7 +1162,7 @@
                 final: {
                     type: "exam",
                     id: "seo_audit",
-                    title: "seo_audit",
+                    title: "seo_audit_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1199,7 +1175,7 @@
                 base: {
                     type: "exam",
                     id: "seo_audit_base_report",
-                    title: "seo_audit_base_report",
+                    title: "seo_audit_base_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1212,7 +1188,7 @@
                 accessibility: {
                     type: "exam",
                     id: "seo_audit_accessibility_report",
-                    title: "seo_audit_accessibility_report",
+                    title: "seo_audit_accessibility_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1225,7 +1201,7 @@
                 content: {
                     type: "exam",
                     id: "seo_audit_content_report",
-                    title: "seo_audit_content_report",
+                    title: "seo_audit_content_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1238,7 +1214,7 @@
                 performance: {
                     type: "exam",
                     id: "speedinsight_audit_report",
-                    title: "speedinsight_audit_report",
+                    title: "speedinsight_audit_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1251,7 +1227,7 @@
                 social: {
                     type: "exam",
                     id: "seo_audit_social_report",
-                    title: "seo_audit_social_report",
+                    title: "seo_audit_social_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1267,7 +1243,7 @@
                 final: {
                     type: "exam",
                     id: "seo_audit",
-                    title: "seo_audit",
+                    title: "seo_audit_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1280,7 +1256,7 @@
                 base: {
                     type: "exam",
                     id: "seo_audit_base_report",
-                    title: "seo_audit_base_report",
+                    title: "seo_audit_base_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1293,7 +1269,7 @@
                 accessibility: {
                     type: "exam",
                     id: "seo_audit_accessibility_report",
-                    title: "seo_audit_accessibility_report",
+                    title: "seo_audit_accessibility_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1306,7 +1282,7 @@
                 content: {
                     type: "exam",
                     id: "seo_audit_content_report",
-                    title: "seo_audit_content_report",
+                    title: "seo_audit_content_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1319,7 +1295,7 @@
                 performance: {
                     type: "exam",
                     id: "speedinsight_audit_report",
-                    title: "speedinsight_audit_report",
+                    title: "speedinsight_audit_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1332,7 +1308,7 @@
                 social: {
                     type: "exam",
                     id: "seo_audit_social_report",
-                    title: "seo_audit_social_report",
+                    title: "seo_audit_social_report_t",
                     data: [],
                     messages: [],
                     suggestions: [],
@@ -1355,7 +1331,7 @@
     serp: {
         type: "analysis",
         id: "serps",
-        title: "serps",
+        title: "serps_t",
         data: {
             list: [
                 {
@@ -1449,7 +1425,7 @@
         {
             type: "analysis",
             id: "serps_gulplease_avg_3",
-            title: "serps_gulplease_avg_3",
+            title: "serps_gulplease_avg_3_t",
             data: {
                 title: 99,
                 snippet: 51,
@@ -1462,7 +1438,7 @@
         {
             type: "analysis",
             id: "serps_gulplease_avg_10",
-            title: "serps_gulplease_avg_10",
+            title: "serps_gulplease_avg_10_t",
             data: {
                 title: 90,
                 snippet: 57,
@@ -1475,7 +1451,7 @@
         {
             type: "analysis",
             id: "serps_count_total",
-            title: "serps_count_total",
+            title: "serps_count_total_t",
             data: {
                 count: 685000000
             },
@@ -1486,7 +1462,7 @@
         {
             type: "analysis",
             id: "serps_count_https",
-            title: "serps_count_https",
+            title: "serps_count_https_t",
             data: {
                 count: 3
             },
@@ -1497,7 +1473,7 @@
         {
             type: "analysis",
             id: "serps_count_kw_in_title_start",
-            title: "serps_count_kw_in_title_start",
+            title: "serps_count_kw_in_title_start_t",
             data: {
                 density: 55,
                 count_keyword_in_query: 1
@@ -1509,7 +1485,7 @@
         {
             type: "analysis",
             id: "serps_count_kw_in_title",
-            title: "serps_count_kw_in_title",
+            title: "serps_count_kw_in_title_t",
             data: {
                 density: 100
             },
@@ -1520,7 +1496,7 @@
         {
             type: "analysis",
             id: "serps_count_kw_in_snippet",
-            title: "serps_count_kw_in_snippet",
+            title: "serps_count_kw_in_snippet_t",
             data: {
                 density: 100
             },
