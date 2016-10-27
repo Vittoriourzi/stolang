@@ -6,7 +6,7 @@
     $lang["keyword_related_t"]="Related Keywords";
     $lang["keyword_trend_t"]="Keyword Trend";
     $lang["suggestion_alphabetical_t"]="Suggestion - Alphabetical";
-    $lang["seo_audit_urls_summary_t"]="Summary SEO Audit";
+    $lang["seo_audit_urls_summary_t"]="SEO Audit Summary";
     $lang["seo_audit_t"]="SEO Audit";
     $lang["seo_audit_base_report_t"]="Base";
     $lang["seo_audit_accessibility_report_t"]="Accessibility";
