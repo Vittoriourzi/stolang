@@ -1,4 +1,5 @@
 <?php
+//TITOLI
     $lang["keyword_base_stat_t"]="Riepilogo";
     $lang["keyword_difficulty_t"]="Keyword Difficulty";
     $lang["keyword_potential_t"]="Keyword Potential";
@@ -69,5 +70,35 @@
     $lang["serps_title_start_with_kw_t"]="Titoli che iniziano con la Keyword";
     $lang["serps_title_match_t"]="Match Keyword in Title";
     $lang["serps_snippet_match_t"]="Match Keyword in Snippet";
+//MESSAGGI
+    $lang["keyword_base_stat_msg_0"]="";
+    $lang["keyword_difficulty_msg_0"]="";
+    $lang["keyword_potential_msg_0"]="";
+    $lang["keyword_opportunity_msg_0"]="";
+    $lang["keyword_related_msg_0"]="";
+    $lang["keyword_trend_msg_0"]="";
+    $lang["suggestion_alphabetical_msg_0"]="";
+    $lang["seo_audit_urls_summary_msg_high"]="I primi 10 risultati per questa keyword presentano un livello di ottimizzazione per i motori di ricerca alto.";
+$lang["seo_audit_urls_summary_msg_med"]="I primi 10 risultati per questa keyword presentano un livello di ottimizzazione per i motori di ricerca medio.";
+$lang["seo_audit_urls_summary_msg_low"]="I primi 10 risultati per questa keyword presentano un livello di ottimizzazione per i motori di ricerca basso.";
+    $lang["seo_audit_msg_0"]="";
+    $lang["seo_audit_base_report_msg_0"]="";
+    $lang["seo_audit_accessibility_report_msg_0"]="";
+    $lang["seo_audit_content_report_msg_0"]="";
+    $lang["speedinsight_audit_report_msg_0"]="";
+    $lang["seo_audit_social_report_msg_0"]="";
+    $lang["serps_gulplease_avg_3_msg_high"]="La leggibilità dei primi 3 risultati per questa keyword è alta.";
+ $lang["serps_gulplease_avg_3_msg_medium"]="La leggibilità dei primi 3 risultati per questa keyword è moderata.";
+ $lang["serps_gulplease_avg_3_msg_low"]="La leggibilità dei primi 3 risultati per questa keyword è bassa.";
+    $lang["serps_gulplease_avg_10_msg_high"]="La leggibilità dei primi 3 risultati per questa keyword è alta.";
+$lang["serps_gulplease_avg_10_msg_medium"]="La leggibilità dei primi 3 risultati per questa keyword è moderata.";
+$lang["serps_gulplease_avg_10_msg_low"]="La leggibilità dei primi 3 risultati per questa keyword è bassa.";
+    $lang["serps_count_total_msg_high"]="Esiste un elevato numero di risultati totali per questa keyword.";
+$lang["serps_count_total_msg_medium"]="Esiste un numero moderato di risultati totali per questa keyword.";
+$lang["serps_count_total_msg_low"]="Esiste un basso numero di risultati totali per questa keyword.";
+    $lang["serps_count_https_msg_0"]="Tra i primi 10 risultati <b>{{$1}}</b> URL utilizzano il protocollo https";
+    $lang["serps_title_start_with_kw_msg_0"]="Tra i primi 10 risultati della ricerca il <b>{{1}}%</b> ha un titlolo che inizia con questa keyword";
+    $lang["serps_title_match_msg_0"]="Tra i primi 10 risultati il <b>{{1}}%</b> presenta la keyword nel titolo.";
+    $lang["serps_snippet_match_msg_0"]="Tra i primi 10 risultati il <b>{{1}}%</b> presenta la keyword nello snippet.";
 
 ?>
